@@ -9,6 +9,10 @@ node 'master.puppet.vm' {
   }
 }
 
+node 'mimetest.puppet.vm' {
+  include role::minecaft_server
+}
+
 node /^web/ {
   include role::app_server
 }
