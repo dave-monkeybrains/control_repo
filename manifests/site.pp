@@ -9,7 +9,7 @@ node 'master.puppet.vm' {
   }
 }
 
-node 'mimetest.puppet.vm' {
+node 'minetest.puppet.vm' {
   include role::minecaft_server
 }
 
